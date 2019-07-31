@@ -1,10 +1,10 @@
 public class Singleton 
 {
 
- //Create Instance
+ 	//Create Instance
 	private static final Singleton instance = new Singleton();
 
-  //Constructor
+  	//Constructor
 	private Singleton() {
 	}
 	
@@ -19,8 +19,8 @@ public class Singleton
  {
 
 	public static void main(String[] args) 
-  {
-      //Get Singleton
-      Singleton s = Singleton.getInstance(); 
-  }
+  	{
+      		//Get Singleton
+     	 	Singleton s = Singleton.getInstance(); 
+  	}
  }
